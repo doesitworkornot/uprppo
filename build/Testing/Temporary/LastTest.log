@@ -1,0 +1,30 @@
+Start testing: Mar 06 13:49 Новосибирское стандартное время
+----------------------------------------------------------
+1/1 Testing: MyClassTest.test_sozd
+1/1 Test: MyClassTest.test_sozd
+Command: "C:/proj/uprppo/task1/big_arr/build/tests/Debug/hello_test2.exe" "--gtest_filter=MyClassTest.test_sozd" "--gtest_also_run_disabled_tests"
+Directory: C:/proj/uprppo/task1/big_arr/build/tests
+"MyClassTest.test_sozd" start time: Mar 06 13:49 Новосибирское стандартное время
+Output:
+----------------------------------------------------------
+Running main() from C:\proj\uprppo\task1\big_arr\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = MyClassTest.test_sozd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MyClassTest
+[ RUN      ] MyClassTest.test_sozd
+[       OK ] MyClassTest.test_sozd (0 ms)
+[----------] 1 test from MyClassTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"MyClassTest.test_sozd" end time: Mar 06 13:49 Новосибирское стандартное время
+"MyClassTest.test_sozd" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 06 13:49 Новосибирское стандартное время

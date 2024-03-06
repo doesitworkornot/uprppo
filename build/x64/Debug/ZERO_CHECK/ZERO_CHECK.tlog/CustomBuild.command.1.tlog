@@ -1,0 +1,10 @@
+^C:\PROJ\UPRPPO\TASK1\BIG_ARR\BUILD\CMAKEFILES\9DCAD78DD7DAE72DCEA8F6598B2BFEC1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/proj/uprppo/task1/big_arr -BC:/proj/uprppo/task1/big_arr/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/proj/uprppo/task1/big_arr/build/my-project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
